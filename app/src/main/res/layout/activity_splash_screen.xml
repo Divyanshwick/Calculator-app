@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:id="@+id/imgView"/>
+    <ProgressBar
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgView"
+        android:layout_marginTop="100dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:progress="20"
+        android:max="100"
+        android:id="@+id/prgBar"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtView"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:text="Made By-Divyansh,
+                          Year-First,
+                          Branch-C.S.E."
+        android:layout_marginTop="560dp"
+        android:textAlignment="center"
+        android:layout_marginHorizontal="120dp"
+        />
+
+
+
+</RelativeLayout>

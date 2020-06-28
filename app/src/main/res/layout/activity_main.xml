@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#000"
+    tools:context=".MainActivity">
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/HeadRelLayout"
+      android:padding="10dp"
+      android:background="@drawable/head_bg"
+      >
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:text="CALCULATOR"
+          android:textColor="#fafafa"
+          android:textAlignment="center"
+          android:background="@drawable/txt_outline"
+          android:textSize="35sp"
+          />
+  </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MidRelLayout1"
+        android:background="@drawable/bigbtn_bg"
+        android:layout_below="@id/txtView3"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+
+        android:layout_marginTop="50dp"
+        >
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/calculatorimg"
+            android:id="@+id/imgView1"
+            android:onClick="intent1"
+            />
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="20dp"
+            android:id="@+id/txtView1"
+            android:textColor="#fafafa"
+            android:textSize="15sp"
+            android:text="Simple Calcultor"
+            android:textAlignment="center"
+            android:layout_below="@id/imgView1"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bigbtn_bg"
+        android:id="@+id/MidRelLayout2"
+        android:layout_toRightOf="@id/MidRelLayout1"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/txtView3"
+        android:padding="10dp"
+        android:layout_marginTop="50dp">
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:id="@+id/imgView2"
+            android:src="@drawable/scentificcalculator"
+            android:onClick="intent2"
+            />
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/imgView2"
+            android:id="@+id/txtView2"
+            android:textSize="15sp"
+            android:textColor="#fafafa"
+            android:text="Scientific Calcultor"
+            android:textAlignment="center"/>
+
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/txtView3"
+        android:text="Choose Your Calculator"
+        android:layout_below="@id/HeadRelLayout"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fafafa"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtView3"
+        android:text="EXIT"
+        android:textColor="#fafafa"
+        android:id="@+id/exit"
+        android:onClick="EXIT"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/btn_bg"/>
+
+
+</RelativeLayout>
