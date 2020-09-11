@@ -13,8 +13,7 @@
 A basic calculator app made using java on Android studio
 
 ## ScreenShots
-
-![SplashScreen]<image src="https://github.com/Divyanshwick/Calculator-app/blob/master/App%20screeenshots/Screenshot_1593334117.png" height="80" width="30"> 
+<image src="https://github.com/Divyanshwick/Calculator-app/blob/master/App%20screeenshots/Screenshot_1593334117.png" height="700" width="300"> 
 ![Home](https://github.com/Divyanshwick/Calculator-app/blob/master/App%20screeenshots/Screenshot_1593332433.png)
 ![Simple-Calculator](https://github.com/Divyanshwick/Calculator-app/blob/master/App%20screeenshots/Screenshot_1593332438.png)
 ![Scientific-Calculator](https://github.com/Divyanshwick/Calculator-app/blob/master/App%20screeenshots/Screenshot_1593332446.png)
